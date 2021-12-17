@@ -1,5 +1,15 @@
 # vuepress-plugin-code-example
 
+你总不想你的示例文档要这么写吧？
+
+```md
+## 基本用法
+<table-basic-usage />
+<<< @/docs/.vuepress/components/table/basic-usage.vue
+```
+
+那你就可以用这个插件了。
+
 # Install
 
 `yarn add vuepress-plugin-code-example`
