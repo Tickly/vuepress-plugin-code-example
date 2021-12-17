@@ -44,7 +44,7 @@ const resolveComponentName = filePath => filePath.slice(0, -4).replace(/\//g, '-
 
 
 module.exports = (opts, ctx) => {
-  const type = 'doc'
+  const type = 'code-example'
 
   return {
     enhanceAppFiles: [
