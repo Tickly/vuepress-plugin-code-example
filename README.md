@@ -4,6 +4,7 @@
 
 ```md
 ## 基本用法
+
 <table-basic-usage />
 <<< @/docs/.vuepress/components/table/basic-usage.vue
 ```
@@ -39,6 +40,11 @@ module.exports = {
 
 `code-example`会被插件解析到，后面填写组件的相对路径即可。
 
+# Feature
+
+- 复制代码
+- 查看代码（支持按 ESC 切换，毕竟当代码太长的时候，往回翻也是很麻烦的。）
+
 # Preview
 
 ## 默认效果
@@ -49,6 +55,10 @@ module.exports = {
 
 ![查看代码](/preview/2.png)
 
+## 在线效果
+
+可参考我的一个组件库文档[erpack](https://tickly.github.io/erpack-docs/components/text/#demo)
+
 # FAQ
 
 注意，目前插件代码里面包含了`ant-design-vue`的代码，所以要在你的项目中先安装该依赖。  
@@ -57,3 +67,5 @@ module.exports = {
 # Todo
 
 - 优化样式
+- 提供主题参数
+- 方便二次开发

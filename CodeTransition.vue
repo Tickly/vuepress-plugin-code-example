@@ -1,5 +1,4 @@
 <script>
-
 const transitionClassName = 'code-transition'
 
 export default {
@@ -18,13 +17,11 @@ export default {
          * @param {HTMLElement} el
          */
         enter (el) {
-
           if (el.scrollHeight !== 0) {
             el.style.height = el.scrollHeight + 'px'
           } else {
             el.style.height = ''
           }
-
         },
         /**
          * @param {HTMLElement} el
@@ -64,7 +61,7 @@ export default {
 <style lang="less">
 .code-transition {
   transition-timing-function: ease-in-out;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
   overflow: hidden;
 }
 </style>
