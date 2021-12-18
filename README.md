@@ -47,17 +47,11 @@ module.exports = {
 
 # Preview
 
-## 默认效果
-
 ![默认效果](/preview/1.png)
-
-## 查看代码
-
-![查看代码](/preview/2.png)
 
 ## 在线效果
 
-可参考我的一个组件库文档[erpack](https://tickly.github.io/erpack-docs/components/text/#demo)
+可参考我的一个组件库文档[erpack](https://tickly.github.io/erpack-docs/components/Button.html)
 
 # FAQ
 
