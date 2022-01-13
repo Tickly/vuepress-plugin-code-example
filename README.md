@@ -1,5 +1,7 @@
 # vuepress-plugin-code-example
 
+> 本插件适用于`vuepress2.x`
+
 你总不想你的示例文档要这么写吧？
 
 ```md
