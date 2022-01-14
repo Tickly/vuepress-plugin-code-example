@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "include": [
-    "*.vue",
-    "*.js",
-  ]
-}

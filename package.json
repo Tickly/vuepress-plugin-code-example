@@ -12,7 +12,15 @@
   "repository": "https://github.com/Tickly/vuepress-plugin-code-example",
   "author": "Tickly",
   "license": "MIT",
+  "scripts": {
+    "build":"vite build"
+  },
   "dependencies": {
     "prismjs": "^1.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.10"
   }
 }
